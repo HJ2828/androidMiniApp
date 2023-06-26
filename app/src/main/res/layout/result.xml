@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/TextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="님의"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="이번주 행운의 부적 결과"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ImgResult"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"/>
+
+    <Button
+        android:id="@+id/BtnHome2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="처음으로"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="#E55A4B"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>

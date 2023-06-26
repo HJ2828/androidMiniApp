@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/Test1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="1. 으아 벌써 주말이 벌써 끝이라니?!?!"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="윽 벌써 스트레스!!"/>
+                <RadioButton
+                    android:id="@+id/Rdo1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오늘 한주도 가보자고!!"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="2. 오늘부터 새로운 프로젝트다!"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아.. 벌써 힘들다..."/>
+                <RadioButton
+                    android:id="@+id/Rdo2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(두근두근) 설렌다.."/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="3. 앗! 지각이다 어쩌지?!?!"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="더 늦지않게 빨리 준비하고 나가야지"/>
+                <RadioButton
+                    android:id="@+id/Rdo3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="어차피 지각인데 느긋하게 해야지~"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="4. 하루를 시작할 때의 나는?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오늘 하루도 잘 될거야!"/>
+                <RadioButton
+                    android:id="@+id/Rdo4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오.. 벌써 집가고 싶다"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="5. 할 일은 많지만 귀찮다 이럴때 나는?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아 몰라~ 내일의 내가 하겠지"/>
+                <RadioButton
+                    android:id="@+id/Rdo5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="빨리 끝내버려야지!!"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="6. 실수를 저질렀는데 아무도 모른다."/>
+            <RadioGroup
+                android:id="@+id/RdoGroup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="실수를 고백한다"/>
+                <RadioButton
+                    android:id="@+id/Rdo6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아무말도 하지 않는다"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="7. 자주 듣는 플레이리스트는?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="감성 터지는 플리"/>
+                <RadioButton
+                    android:id="@+id/Rdo7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="힘이 나는 신나는 플리"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="8. 일과 중 달콤한 쉬는 시간! 무엇을 할까?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo8_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="가만히 휴대폰이나 해야지"/>
+                <RadioButton
+                    android:id="@+id/Rdo8_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="친구들이랑 수다떨거나 산책해야지"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="9. 일과 끝! 집으로 가는 길. 무슨 생각을 할까?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo9_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오늘 하루도 무사히 보냈다"/>
+                <RadioButton
+                    android:id="@+id/Rdo9_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="내일은 뭐 해야하고.."/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="10. 집 도착! 오자마자 하는 일은?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="집에 왔으니 바로 씻어야지"/>
+                <RadioButton
+                    android:id="@+id/Rdo10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아 몰라 일단 바로 침대행"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Test11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="11. 자기전 내 모습은?"/>
+            <RadioGroup
+                android:id="@+id/RdoGroup11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Rdo11_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="잠? 그건 사치 할일이 많다"/>
+                <RadioButton
+                    android:id="@+id/Rdo11_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오늘 하루 끝! 곧바로 잔다"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/LastText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#F0654E"
+                android:text="- 결과를 확인해주세요! -"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/BtnPrev2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="이전"
+                android:background="#E55A4B"/>
+            <Button
+                android:id="@+id/BtnNext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="결과보기"
+                android:background="#E55A4B"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
